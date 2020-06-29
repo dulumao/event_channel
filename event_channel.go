@@ -19,10 +19,10 @@ type EventData struct {
 }
 
 type Event struct {
-	f       eventFunc
-	Timeout context.Context
-	Done    chan struct{}
-	isOnce  bool
+	f        eventFunc
+	Timeout  context.Context
+	Done     chan struct{}
+	isOnce   bool
 }
 
 func New() *EventChannel {

@@ -1,4 +1,4 @@
-module event_channel
+module github.com/dulumao/event_channel
 
 go 1.14
 
